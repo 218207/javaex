@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8000675-4396-48a8-8c85-6604a1959118" name="Changes" comment="dop">
-      <change afterPath="$PROJECT_DIR$/src/task15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task15/functionConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task15/linearFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task15/quadraticFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task16/ArithmeticProgression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task16/GeometricProgression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task16/Progress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task18/task18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task18/task18_main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Задачи" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686995030797</updated>
       <workItem from="1686995033719" duration="17670000" />
-      <workItem from="1687105920214" duration="5009000" />
+      <workItem from="1687105920214" duration="6213000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1687105738971</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687109670321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dop">
+      <created>1687114461119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687114461119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
