@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8000675-4396-48a8-8c85-6604a1959118" name="Changes" comment="dop" />
+    <list default="true" id="b8000675-4396-48a8-8c85-6604a1959118" name="Changes" comment="dop">
+      <change afterPath="$PROJECT_DIR$/src/task45.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686995030797</updated>
       <workItem from="1686995033719" duration="17670000" />
-      <workItem from="1687105920214" duration="11114000" />
+      <workItem from="1687105920214" duration="11502000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1687105738971</created>
@@ -141,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687120078656</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dop">
+      <created>1687120552641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687120552641</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
