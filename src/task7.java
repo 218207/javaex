@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 public class task7 {
     public static void main(String[] args) {
-        for (int i = 1; i < 11; i++){
-            System.out.print(i * i + " ");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введите слово: ");
+        String word = scanner.nextLine();
+
+        for (int i = 0; i < 6; i++) {
+            System.out.println(word);
         }
     }
 }
