@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8000675-4396-48a8-8c85-6604a1959118" name="Changes" comment="dop" />
+    <list default="true" id="b8000675-4396-48a8-8c85-6604a1959118" name="Changes" comment="dop">
+      <change afterPath="$PROJECT_DIR$/src/task15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task15/functionConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task15/linearFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task15/quadraticFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task16/ArithmeticProgression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task16/GeometricProgression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task16/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task16/Progress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686995030797</updated>
       <workItem from="1686995033719" duration="17670000" />
-      <workItem from="1687105920214" duration="3424000" />
+      <workItem from="1687105920214" duration="5009000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1687105738971</created>
@@ -70,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687109217701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dop">
+      <created>1687109670321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687109670321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +109,16 @@
     <MESSAGE value="create" />
     <MESSAGE value="dop" />
     <option name="LAST_COMMIT_MESSAGE" value="dop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/task14/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
