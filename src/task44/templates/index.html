@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Добро пожаловать в мой калькулятор</h1>
+<hr/>
+
+<form th:method="POST" th:action="@{/calculate}">
+    <label>Number 1
+        <input type="number" name="number1">
+    </label>
+    <label>Number 2
+        <input type="number" name="number2">
+    </label>
+    <div class="checkbox" >
+        <label for="+">+
+            <input type="radio" checked value="+" id="+" name="action"/>
+        </label>
+        <br/>
+        <label for="-">-
+            <input type="radio" value="-" id="-" name="action"/>
+        </label>
+        <br/>
+        <label for="*">*
+            <input type="radio" value="*" id="*" name="action"/>
+        </label>
+        <br/>
+        <label for="/">/
+            <input type="radio" value="/" id="/" name="action"/>
+        </label>
+    </div>
+    <input type="submit" value="Посчитать">
+</form>
+
+
+<p th:if="${result}!=null" th:text="'Результат: ' + ${result}"></p>
+
+<form th:method="POST" th:action="@{/show}">
+    <input type="submit" value="Показать все результаты">
+</form>
+<div th:if="${results}!=null" th:each="res, ind: ${results}">
+    <p th:text="'Результат' + ${ind.index+1}+ ': ' + ${res.getNumber1()} + ${res.getAction()} + ${res.getNumber2()} + '=' + ${res.getResult()}"></p>
+</div>
+<div th:if="${results}==null" >
+    <p>Результатов нет или они удалены</p>
+</div>
+
+<form th:method="POST" th:action="@{/delete}">
+    <input type="submit" value="Удалить все результаты">
+</form>
+</body>
+</html>
