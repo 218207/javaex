@@ -1,28 +1,28 @@
-public class ComplexNumber {
-    private int[] parts; // ������ ��� �������� ������������ � ������ ������
+public class task23 {
+    private int[] parts;
 
-    public ComplexNumber(int realPart, int imaginaryPart) {
+    public task23(int realPart, int imaginaryPart) {
         parts = new int[2];
-        parts[0] = realPart; // ������������ �����
-        parts[1] = imaginaryPart; // ������ �����
+        parts[0] = realPart;
+        parts[1] = imaginaryPart;
     }
 
-    public ComplexNumber add(ComplexNumber other) {
+    public task23 add(task23 other) {
         int real = this.parts[0] + other.parts[0];
         int imaginary = this.parts[1] + other.parts[1];
-        return new ComplexNumber(real, imaginary);
+        return new task23(real, imaginary);
     }
 
-    public ComplexNumber subtract(ComplexNumber other) {
+    public task23 subtract(task23 other) {
         int real = this.parts[0] - other.parts[0];
         int imaginary = this.parts[1] - other.parts[1];
-        return new ComplexNumber(real, imaginary);
+        return new task23(real, imaginary);
     }
 
-    public ComplexNumber multiply(ComplexNumber other) {
+    public task23 multiply(task23 other) {
         int real = this.parts[0] * other.parts[0] - this.parts[1] * other.parts[1];
         int imaginary = this.parts[0] * other.parts[1] + this.parts[1] * other.parts[0];
-        return new ComplexNumber(real, imaginary);
+        return new task23(real, imaginary);
     }
 
     public int getRealPart() {
